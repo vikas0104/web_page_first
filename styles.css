@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #42455a;
+    /* background-attachment: fixed; */
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+    /* position: fixed; */
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: white;
+    cursor: pointer;
+}
+.logo img{
+    margin-top: -30px;
+    margin-right: 70px;
+    /* position: fixed; */
+}
+.active p{
+    /* font-family: cursive; */
+
+    color: #19dafa;
+}
+.sign_up{
+    top: 50px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+.sign_up span{
+    display: block;
+    padding: 8px 22px;
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: white;
+}
+.app-text{
+    width: 50%;
+    float: left;
+}
+.App-text h3{
+    font-size: 25px;
+    width: 650px;
+    position: relative;
+    margin-left: 40px;
+}
+.App-text p{
+    font-size: 15px;
+    width: 650px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #919191;
+}
+.app-picture{
+    width: 50%;
+    top: -300px;
+    left: 200px;
+    position: relative;
+    float: right;
+}
+.app-picture img{
+    width: 50%;
+    /* float: right; */
+}
+.play-btn{
+    margin-left: 40px;
+    display: inline-flex;
+}
+.play-btn-inner{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    text-align: center;
+}
+.play-btn-inner .fa{
+    padding: 18px 0;
+    /* padding-left: 15px; */
+    font-size: 19px;
+    cursor: pointer;
+}
+small{
+    margin: auto 15px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
