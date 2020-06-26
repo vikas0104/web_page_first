@@ -82,6 +82,9 @@
     width: 50%;
     /* float: right; */
 }
+.app-picture img:hover{
+    translate: 20px;
+}
 .play-btn{
     margin-left: 40px;
     display: inline-flex;
@@ -107,4 +110,13 @@ small{
     margin: auto 15px;
     font-size: 15px;
     letter-spacing: 3px;
+}
+.second{
+    margin-top: 35%;
+    background: url(./images/sec.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    
 }
