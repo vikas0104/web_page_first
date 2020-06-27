@@ -6,7 +6,9 @@
 .container{
     width: 100vw;
     height: 100vh;
-    background: #42455a;
+    /* background: #42455a; */
+    background: url(./images/back.png);
+    background-attachment: fixed;
     /* background-attachment: fixed; */
 }
 .menu ul{
@@ -19,6 +21,7 @@
     margin: 0 20px;
     color: white;
     cursor: pointer;
+    font-size: 25px;
 }
 .logo img{
     margin-top: -30px;
@@ -73,7 +76,7 @@
 }
 .app-picture{
     width: 50%;
-    top: -300px;
+    top: -350px;
     left: 200px;
     position: relative;
     float: right;
@@ -112,11 +115,27 @@ small{
     letter-spacing: 3px;
 }
 .second{
-    margin-top: 35%;
-    background: url(./images/sec.png);
+    margin-top: 34%;
+    background: url(./images/rsz_sec.jpg);
     background-attachment: fixed;
     background-size: cover;
     width: 100vw;
     height: 100vh;
     
+}
+.social{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 1350px;
+    display: inline-flex;
+    list-style: none;
+    height: 76px;
+    width: 100vw;
+    background: linear-gradient(to left, rgba(8, 219, 226, 0.979),rgb(238, 16, 227));
+}
+.social li{
+    margin: 10px 10vw;
+    cursor: pointer;
+
 }
